@@ -74,7 +74,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 7689082267195548377}
   - component: {fileID: 3046607581279101928}
   - component: {fileID: 1111280985940873014}
+  - component: {fileID: 3472773990714334328}
   m_Layer: 5
   m_Name: Damage Pop-Up
   m_TagString: Untagged
@@ -348,3 +349,15 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3472773990714334328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844936195326975567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdae94ebffab7439f91df6a221d8ad5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
