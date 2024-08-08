@@ -15,8 +15,7 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.Locked){Cursor.lockState = CursorLockMode.None;Cursor.visible = true;}
-        if (Input.GetKey(KeyCode.Escape) && Cursor.lockState == CursorLockMode.None){Cursor.lockState = CursorLockMode.Locked;Cursor.visible = false;}
+        
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
         playerBody.Rotate(Vector3.up * mouseX);
